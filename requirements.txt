@@ -6,3 +6,6 @@ googletrans
 pyalsaaudio==0.8.2
 mycroft-messagebus-client
 colour
+timezonefinder>=4.2.0
+geopy>=1.21.0
+geocoder>=1.38.1

@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='jarbas_utils',
-    version='0.5.1',
+    version='0.5.2',
     packages=['jarbas_utils',
               'jarbas_utils.sound',
               'jarbas_utils.mark1',
@@ -13,7 +13,10 @@ setup(
                       "googletrans",
                       "pyalsaaudio==0.8.2",
                       "mycroft-messagebus-client",
-                      "colour"],
+                      "colour",
+                      "timezonefinder>=4.2.0",
+                      "geopy>=1.21.0",
+                      "geocoder>=1.38.1"],
     license='MIT',
     author='jarbasAI',
     author_email='jarbasai@mailfence.com',
